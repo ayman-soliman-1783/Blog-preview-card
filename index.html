@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- displays site properly based on user's device -->
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/images/favicon-32x32.png"
+        />
+
+        <title>Frontend Mentor | Blog preview card</title>
+
+        <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+        <style>
+            .attribution {
+                font-size: 11px;
+                text-align: center;
+            }
+            .attribution a {
+                color: hsl(228, 45%, 44%);
+            }
+            * {
+                box-sizing: border-box;
+                font-family: "Figtree Light", sans-serif;
+            }
+            *::selection {
+                background-color: #f5d04e;
+                color: white;
+            }
+            html {
+                font-size: 62.5%;
+            }
+            body {
+                height: 97vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                background-color: #f5d04e;
+            }
+            .container {
+                background-color: white;
+                width: 40rem;
+                padding: 2rem 2.2rem 1rem 2.2rem;
+                border-radius: 2rem;
+                margin-bottom: 2rem;
+                border: 0.1rem solid black;
+                box-shadow: 1rem 1rem 0 0 black;
+                transition: 0.3s;
+            }
+            .container:hover {
+                transform: translate(-0.5rem, -0.5rem);
+                box-shadow: 1.5rem 1.5rem 0 0 black;
+            }
+            img[alt="article-illustration"] {
+                display: block;
+                width: 100%;
+                height: auto;
+                border-radius: 1rem;
+                margin-bottom: 2rem;
+            }
+            span {
+                display: inline-block;
+                background-color: #f5d04e;
+                padding: 0.5rem 1rem;
+                border-radius: 0.5rem;
+                font-weight: bolder;
+                font-size: 1.6rem;
+            }
+            h2 {
+                font-size: 2.4rem;
+            }
+            h2:hover {
+                color: #f5d04e;
+                cursor: pointer;
+            }
+            p {
+                font-size: 1.6rem;
+            }
+            h2 + p {
+                color: #a0a0a0;
+            }
+            .avatar {
+                display: flex;
+                align-items: center;
+                margin-top: 2rem;
+            }
+            .avatar img {
+                width: 3rem;
+                height: 3rem;
+                border-radius: 50%;
+                margin-right: 1rem;
+            }
+            .avatar h5 {
+                font-size: 1.6rem;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img
+                src="/assets/images/illustration-article.svg"
+                alt="article-illustration"
+            />
+            <span>Learning</span>
+            <p>Published 21 Dec 2023</p>
+
+            <h2>HTML & CSS foundations</h2>
+            <p>
+                These languages are the backbone of every website, defining
+                structure, content, and presentation. Greg Hooper
+            </p>
+
+            <div class="avatar">
+                <img src="/assets/images/image-avatar.webp" alt="Greg Hooper" />
+                <h5>Greg Hooper</h5>
+            </div>
+        </div>
+
+        <div class="attribution">
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded with ❤️ by <a href="#">Ayman Soliman</a>.
+        </div>
+    </body>
+</html>
