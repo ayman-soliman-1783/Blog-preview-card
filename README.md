@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Blog Preview Card Solution](https://www.frontendmentor.io/solutions/blog-preview-card-with-stylish-transitions-and-selection-phVn9qXm8f)
-- Live Site URL: [Live Preview](https://ayman-soliman-1783.github.io/Blog-preview-card/)
+- Live Site URL: [Live Preview](https://aymansoliman-dev.github.io/Blog-preview-card/)
 
 ## My process
 
@@ -40,7 +40,7 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Transitions
-- Colorful selection pesudo element
+- Colorful selection pseudo-element
 
 ### What I learned
 
@@ -86,5 +86,6 @@ For continued development, I plan to explore CSS animations to add subtle motion
 ## Author
 
 - Website - [Ayman Soliman](https://bento.me/ayman-soliman)
-- Frontend Mentor - [@ayman-soliman-1783](https://www.frontendmentor.io/profile/ayman-soliman-1783)
+- Frontend Mentor - [aymansoliman-dev](https://www.frontendmentor.io/profile/aymansoliman-dev)
 - Twitter - [@a_soliman1783](https://x.com/a_soliman1783)
+
